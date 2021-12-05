@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
+    font-family: 'Roboto', sans-serif;
+}
+.mainCunt{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left:7px;
+    margin-right:7px;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:antiquewhite;
+    border:5px solid white ;
+    border-radius: 70px white !important; 
+}
+.heading{
+    margin-left: 15px;
+    background-color: transparent;
+    text-shadow: 10px 10px -5px #b2a98f;
+}
+.forImage{
+    background-color: transparent;
+}
+.first{
+    border-top: 1px solid white;
+    background-color: white !important;
+    display: flex;
+}
+.first .textContainer{
+        background-color: transparent;
+        padding-top: 10px;
+        padding-left: 25px !important;
+        display:inline-block;
+        width:1000px;
+}
+.first .textContainer .mainText{
+    background-color: transparent;
+    height:50px;
+}
+.first .textContainer .tagOne{ 
+    margin:5px;
+    flex-direction:column;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(166, 240, 132) !important;
+    border-radius: 5px !important;
+    width:fit-content !important;
+}
+.first .textContainer .tagTwo{ 
+    margin:5px;
+    background-color: white !important;
+    background-color: rgb(222, 132, 240) !important;
+    border-radius: 20px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-flow: column wrap;
+    width:fit-content !important;
+    border-radius: 5px !important;
+    align-items: flex-end; 
+}
+.first .textContainer .tagTiming{
+    background-color: transparent;
+    padding-top: 10px;
+    padding-left: 25px !important;
+    
+    align-items: center;
+    align-self: flex-end;
+}
+.first .dateTagRightBottom{ 
+    background-color: white !important;
+    align-items: center;
+    align-self: flex-end;
+    align-items:right;
+}
+#f{
+    margin: 10px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    border-radius: 20px !important;
+    height: auto !important;
+    width: auto !important;  
+}
+.img-responsive{
+    background-color: transparent;
+    padding-top: 10px !important;
+    height: 150px !important;
+    width: 150px !important;
+    border-radius:50px;
+}
